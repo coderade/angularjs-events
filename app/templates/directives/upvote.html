@@ -1,0 +1,11 @@
+<div class="span0 well votingWidget">
+    <div class="votingButton" ng-click="upvote()"> <!-- we dont need pass a artist here because we only need say call the upvote() method on the scope.-->
+        <i class="icon-chevron-up icon-white"></i>
+    </div>
+    <div class="badge badge-inverse">
+        <div>{{count}}</div>
+    </div>
+    <div class="votingButton" ng-click="downvote()">
+        <i class="icon-chevron-down"></i>
+    </div>
+</div>

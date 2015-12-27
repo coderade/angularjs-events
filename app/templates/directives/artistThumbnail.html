@@ -1,0 +1,8 @@
+<div class="well span9 artistThumbnail">
+    <h4 class="well-title">{{artist.name}} <button type="button" class="btn editArtistBtn" ng-show="editable" ng-click="edit(artist)">Edit</button></h4>
+    <h6 class="artistCreator"><a href="/viewProfile/{{artist.creator}}">{{artist.creatorName}}</a></h6>
+    <span>Duration: {{artist.duration | durations}}</span><br />
+    <span>Main song: {{artist.track}}</span><br />
+    <span>Genre: {{artist.genre}}</span><br />
+    <span>Time: {{artist.time}}</span>
+</div>

@@ -1,0 +1,10 @@
+<!--View created for demonstrate the use of compile directive
+See the directive repeatx for a better understanding-->
+<h1>Compile Directive in AngularJS</h1>
+<h4>Example de how to use the compile directive in Angular JS </h4>
+
+<p>Demonstrate the use of the created repeatX directive that will repeat the value of the element,
+    the  amount of times that we define in your view</p><br>
+Text to repeat: <input type="text" ng-model="text">
+<div repeat-x="5" text='{{text}}'>{{text}}</div>
+

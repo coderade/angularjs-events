@@ -1,0 +1,44 @@
+<!-- We can use jquery plugins inside a directive and angular can make our jquery plugin more explicity
+       And we can create Jquery plugin like functionality in our angulan implementation if we want -->
+<div style="padding-right: 20px; padding-left: 20px">
+        <div class="container">
+            <h1>New event</h1>
+            <hr/>
+            <form name="newEventForm">
+                <fieldset>
+                    <label for="eventName"> Event Name:</label>
+                    <input ng-model="event.name" id="eventName" type="text" placeholder="Name of event..." required/>
+
+                    <!-- we created a date-picker directive using the jquery plugin-->
+                    <label for="eventDate"> Event Date:</label>
+                    <div style="position: relative;">
+                        <input date-keys ng-model="event.date" id="eventDate"  type="text" placeholder="Format (mm/dd/yyyy)..." ng-pattern="/\d\d/\d\d/\d\d\d\d/" required/>
+                        <date-picker for="eventDate"/>
+                    </div>
+                    <label for="eventTime"> Event Time:</label>
+                    <input ng-model="event.time" id="eventTime" type="text" placeholder="Start and end time..."/>
+
+                    <label for="eventLocation"> Event Location:</label>
+                    <input ng-model="event.location.adress" id="eventLocation" type="text" placeholder="Adress of event..."/>
+                    <br>
+
+                    <input ng-model="event.city" id="eventCity" type="text" class="input-small" placeholder="City...">
+                    <input ng-model="event.province" id="eventProvince" type="text" class="input-small" placeholder="Province...">
+
+                    <label for="eventImageUrl">Image:</label>
+                    <input ng-model="event.imageUrl" id="eventImageUrl" type="url" class="input-large" placeholder="URL of image...">
+                </fieldset>
+                <img ng-src="{{event.imageUrl}}" src="">
+                <br>
+                <br>
+                <button type="submit" ng-disabled="newEventForm.$invalid" ng-click="saveEvent(event, newEventForm)" class="btn btn-primary">Save</button>
+                <button type="button" ng-click="cancelEdit()" class="btn btn-info">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+<!--&lt;!&ndash;Call for jquery datepicker function&ndash;&gt;-->
+<!--<script type="text/javascript">-->
+    <!--$('#eventDate').datepicker();-->
+<!--</script>-->
+

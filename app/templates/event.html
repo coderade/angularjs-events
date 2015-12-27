@@ -1,0 +1,29 @@
+<div id="me">
+    <event-details event="event" editable="allowUserToEditEvent()" edit="editEvent(event)"></event-details>
+
+    <button type="button" style="margin-top:25px" class="btn btn-primary" ng-click="createNewArtist(event.id)">Create New Artist</button>
+
+    <hr/>
+
+    <h3>Artists</h3>
+    Order By:
+    <select ng-model="sortorder" class="input-small">
+        <option selected value="name">Name</option>
+        <option value="-upVoteCount">Votes</option>
+    </select>
+    Rate:
+    <select ng-model="query" class="input-medium">
+    <option selected value="">All</option>
+    <option value="5 stars">5 stars</option>
+    <option value="4 stars">4 stars</option>
+    <option value="3 stars">3 stars</option>
+    </select>
+    <ul class="thumbnails">
+        <li ng-repeat="artist in event.artists | filter:query | orderBy:sortorder" class="span11">
+            <div class="row no-select">
+                <upvote count="{{artist.upVoteCount}}" upvote="upVoteArtist(artist)" downvote="downVoteArtist(artist)"></upvote>
+                <artist-thumbnail artist="artist" editable="allowUserToEditArtist(artist)" edit="editArtist(artist)"></artist-thumbnail>
+            </div>
+        </li>
+    </ul>
+</div>

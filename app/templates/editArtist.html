@@ -1,0 +1,35 @@
+<div class="container" >
+    <!-- If we are editing artist the value of the editingArtist will be true, so we will hide
+   the "New Artist" and we show "Edit Artist" using ng-hide and ng-show directives-->
+    <h1 ng-hide="editingArtist">New Artist</h1>
+    <h1 ng-show="editingArtist">Edit Artist</h1>
+    <hr/>
+    <form name="editArtistForm">
+        <fieldset>
+            <label for="artistName">Artist Name:</label>
+            <input id="artistName" type="text" focus required ng-model="artist.name">
+            <label for="artistDuration">Duration:</label>
+            <select id="artistDuration" ng-model="artist.duration" ng-Required>
+                <option value="1">Half Hour</option>
+                <option value="2">Hour</option>
+                <option value="3">Half Day</option>
+                <option value="4">Full Day</option>
+            </select>
+            <label for="artistRate">Rate:</label>
+            <select id="artistRate" ng-model="artist.rate" ng-Required>
+                <option value="5 stars">5 stars</option>
+                <option value="4 stars">4 stars</option>
+                <option value="3 stars">3 stars</option>
+                <option value="2 stars">2 stars</option>
+                <option value="1 star">1 star</option>
+            </select>
+            <label for="artistGenre">Genre:</label>
+            <input id="artistGenre" type="text"  required ng-model="artist.genre">
+
+            <label for="artistTrack">Main track:</label>
+            <input id="artistTrack" type="text"  required ng-model="artist.track">
+        </fieldset>
+        <button type="submit" class="btn btn-primary" ng-click="saveArtist(artist, editArtistForm)">Save</button>
+
+    </form>
+</div>

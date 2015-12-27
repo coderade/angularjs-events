@@ -1,0 +1,20 @@
+
+<div class="container">
+    <div style="padding:20px;">
+        <h1>Using cache in AngularJS</h1>
+        <h4>Example de how to use cache in AngularJS </h4>
+
+        key: <input type="text" ng-model="key"/><br/>
+        value: <input type="text" ng-model="value"/><br/>
+        <button type="button" class="btn" ng-click="addToCache(key, value)">Add To Cache</button><br/>
+        <br/>
+        <br/>
+
+        <p>Enter the key for see the value in cache</p>
+        <input type="text" ng-model="keyToRead"/><br/>
+        <h3>Value from cache: {{readFromCache(keyToRead)}}</h3>
+        <h3>Cache Stats: {{getCacheStats()}}</h3>
+
+
+    </div>
+</div>
