@@ -6,7 +6,7 @@ angular application. The project have all code lines comented, angular samples a
 ## How to use
 
 
-Download and install the Node.Js  and NPM from the [nodejs](https://nodejs.org/en/download/) site.
+Download and install the Node.Js  and NPM from the [Node.js](https://nodejs.org/en/download/) site.
 
 Clone the repository and install the node modules.
 
@@ -14,13 +14,13 @@ Clone the repository and install the node modules.
 
 Install the Bower globally:
 
-` npm install -g bower`
+`npm install -g bower`
 
-And the Bower components:
+Install the Bower components:
 
 `bower install`
 
-After this we can run the application.
+After this, you can run the application.
 ***
 
 ### Running the application
