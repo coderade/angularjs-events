@@ -13,8 +13,8 @@ module.exports = function(config){
     },
 
     files : [ //Array of files
-      '../app/lib/angular/angular.1.4.2.min.js',
-      'lib/angular/angular-*.js',
+      '../../app/lib--/angular/angular.1.4.2.min.js',
+      '../../app/lib--/angular/angular-*.js',
       '../test/lib/angular/angular-mocks.1.4.2.js',
       '../test/lib/sinon-1.6.0.js', //Sinon.js is a really helpful library when you want to unit test your code
       'js/**/*.js',

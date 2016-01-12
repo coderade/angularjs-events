@@ -1,0 +1,30 @@
+{
+  "name": "angularjs-events",
+  "version": "1.0.0",
+  "description": "Simple application demonstrating a more fully developed realistic single page angular application.",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-ng-html2js-preprocessor": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderade/angularjs-events.git"
+  },
+  "author": "Valdeci Gomes <valdeci@coderade.in>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderade/angularjs-events/issues"
+  },
+  "homepage": "https://github.com/coderade/angularjs-events#readme"
+}

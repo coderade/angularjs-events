@@ -1,0 +1,32 @@
+{
+  "name": "angularjs-events",
+  "description": "Simple application demonstrating a more fully developed realistic single page angular application.",
+  "authors": [
+    "Valdeci Gomes <valdeci@coderade.in>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/coderade/angularjs-events",
+  "moduleType": [],
+
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-cookies": "~1.4.8",
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "angular-resource": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "angular-sanitize": "~1.4.8",
+    "jquery-ui": "~1.11.4",
+    "underscore": "~1.8.3",
+    "angular-i18n": "~1.4.8"
+  }
+}
