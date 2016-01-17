@@ -37,7 +37,7 @@ Then navigate your browser to `http://localhost:<port>` to see the app running i
 your browser.  The port may be configured in the scripts/web-server.js file near the top. The default port is 8000.
 
 #### Logging in
-you can inspect the files in the app/data/user directory, or just use the login "admin"/"admin".  Some of the functionality
+You can inspect the files in the app/data/user directory, or just use the login "admin"/"admin".  Some of the functionality
 are disabled if you are not logged in.
 
 ### Server
@@ -47,11 +47,11 @@ self-contained, but it puts some limitations because the server has no logic wha
 
 The web-server.js code was borrowed from the angularjs.org tutorial (angular-phonecat)
 
-## Running the tests
-
 ***
 
-To run the test, you need to configure your environment. In the first version of the project all modules necessary to run the tests are already installed locally.
+## Running the tests
+
+To run the test, you need to configure your environment. To do this you need to install [Protractor](https://angular.github.io/protractor/#/) and [Karma](https://karma-runner.github.io) and install all the node modules and bower components modules needed to run this application as shown above.
 
 ### Unit tests
 
@@ -60,6 +60,8 @@ I created a article in my blog of how to configure the Karma for tests in the We
 ### End2End tests
 I created a article in my blog of how to configure the Protractor for tests in the WebStorm IDE and how to run E2E tests, you can see in this [link](http://coderade.in/setting-protractor-webstorm).
 
-For more information on AngularJS please check out [angularjs](http://angularjs.org).
+***
+
+For more information on AngularJS please check out [AngularJS](http://angularjs.org).
 
 If you have some question about this project, please [contact me](http://coderade.in/contact) and I will try to answer as quickly as possible.
