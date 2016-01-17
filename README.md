@@ -1,5 +1,7 @@
 # AngularJS Events
 
+![Angular Events](angularevents.png)
+
 This project is a simple application demonstrating a more fully developed realistic single page
 angular application. The project have all code lines comented, angular samples and unit and e2e tests.
 
@@ -21,6 +23,7 @@ Install the Bower components:
 `bower install`
 
 After this, you can run the application.
+
 ***
 
 ### Running the application
