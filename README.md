@@ -40,7 +40,7 @@ your browser.  The port may be configured in the scripts/web-server.js file near
 You can inspect the files in the app/data/user directory, or just use the login "admin"/"admin".  Some of the functionality
 are disabled if you are not logged in.
 
-### Server
+#### Server
 
 The server is a simple node server that just writes and reads files from the disk in a restful manner.  This keeps the entire project
 self-contained, but it puts some limitations because the server has no logic whatsoever.
@@ -49,15 +49,15 @@ The web-server.js code was borrowed from the angularjs.org tutorial (angular-pho
 
 ***
 
-## Running the tests
+### Running the tests
 
 To run the test, you need to configure your environment. To do this you need to install [Protractor](https://angular.github.io/protractor/#/) and [Karma](https://karma-runner.github.io) and install all the node modules and bower components modules needed to run this application as shown above.
 
-### Unit tests
+#### Unit tests
 
 I created a article in my blog of how to configure the Karma for tests in the WebStorm IDE and how to run Unit tests, you can see in this [link](http://coderade.in/configure-karma-webstorm).
 
-### End2End tests
+#### End2End tests
 I created a article in my blog of how to configure the Protractor for tests in the WebStorm IDE and how to run E2E tests, you can see in this [link](http://coderade.in/setting-protractor-webstorm).
 
 ***
