@@ -1,0 +1,6 @@
+#User specific stuff
+.idea/
+
+# Project stuff
+app/lib/
+node_modules
