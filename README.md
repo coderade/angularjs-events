@@ -8,15 +8,18 @@ angular application. The project have all code lines comented, angular examples 
 ## How to use
 
 
-Download and install the Node.Js  and NPM from the [Node.js](https://nodejs.org/en/download/) site.
+Download and install the Node.Js using the [NVM](https://github.com/creationix/nvm).
+
+Install the [yarn](https://yarnpkg.com/en/) following the official 
+[documentation](https://yarnpkg.com/lang/en/docs/install/#linux-tab).
 
 Clone the repository and install the node modules.
 
-`npm install`
+`yarn install`
 
 Install the Bower globally:
 
-`npm install -g bower`
+`yarn global add bower`
 
 Install the Bower components:
 
@@ -37,13 +40,13 @@ Then navigate your browser to `http://localhost:<port>` to see the app running i
 your browser.  The port may be configured in the scripts/web-server.js file near the top. The default port is 8000.
 
 #### Logging in
-You can inspect the files in the app/data/user directory, or just use the login "admin"/"admin".  Some of the functionality
-are disabled if you are not logged in.
+You can inspect the files in the app/data/user directory, or just use the login "admin"/"admin".  
+Some of the functionality are disabled if you are not logged in.
 
 #### Server
 
-The server is a simple node server that just writes and reads files from the disk in a restful manner.  This keeps the entire project
-self-contained, but it puts some limitations because the server has no logic whatsoever.
+The server is a simple node server that just writes and reads files from the disk in a restful manner. 
+This keeps the entire project self-contained, but it puts some limitations because the server has no logic whatsoever.
 
 The web-server.js code was borrowed from the angularjs.org tutorial (angular-phonecat)
 
@@ -51,17 +54,22 @@ The web-server.js code was borrowed from the angularjs.org tutorial (angular-pho
 
 ### Running the tests
 
-To run the test, you need to configure your environment. To do this you need to install [Protractor](https://angular.github.io/protractor/#/) and [Karma](https://karma-runner.github.io) and install all the node modules and bower components modules needed to run this application as shown above.
+To run the test, you need to configure your environment. To do this you need to install 
+[Protractor](https://angular.github.io/protractor/#/) and [Karma](https://karma-runner.github.io) 
+and install all the node modules and bower components modules needed to run this application as shown above.
 
 #### Unit tests
 
-I created a article in my blog of how to configure the Karma for tests in the WebStorm IDE and how to run Unit tests, you can see in this [link](http://coderade.in/configure-karma-webstorm).
+I created a article in my blog of how to configure the Karma for tests in the WebStorm IDE and how to run Unit tests, 
+you can see in this [link](http://coderade.io/configure-karma-webstorm).
 
 #### End2End tests
-I created a article in my blog of how to configure the Protractor for tests in the WebStorm IDE and how to run E2E tests, you can see in this [link](http://coderade.in/setting-protractor-webstorm).
+I created a article in my blog of how to configure the Protractor for tests in the WebStorm IDE and how to run E2E tests,
+ you can see in this [link](http://coderade.io/setting-protractor-webstorm).
 
 ***
 
 For more information on AngularJS please check out [AngularJS](http://angularjs.org).
 
-If you have some question about this project, please [contact me](http://coderade.in/contact) and I will try to answer as quickly as possible.
+If you have some question about this project, please [contact me](http://coderade.io/contact) 
+and I will try to answer as quickly as possible.
