@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/coderade/angularjs-events.git"
   },
-  "author": "Valdeci Gomes <valdeci@coderade.in>",
+  "author": "Valdeci Gomes <valdeci@coderade.io>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/coderade/angularjs-events/issues"
