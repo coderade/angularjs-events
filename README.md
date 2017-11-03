@@ -7,7 +7,6 @@ angular application. The project have all code lines comented, angular examples 
 
 ## How to use
 
-
 Download and install the Node.Js using the [NVM](https://github.com/creationix/nvm).
 
 Install the [yarn](https://yarnpkg.com/en/) following the official 
@@ -48,7 +47,7 @@ Some of the functionality are disabled if you are not logged in.
 The server is a simple node server that just writes and reads files from the disk in a restful manner. 
 This keeps the entire project self-contained, but it puts some limitations because the server has no logic whatsoever.
 
-The web-server.js code was borrowed from the angularjs.org tutorial (angular-phonecat)
+The web-server.js code was borrowed from the [angularjs.org](https://angularjs.org/) tutorial ([angular-phonecat](https://github.com/angular/angular-phonecat))
 
 ***
 
