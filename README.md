@@ -47,7 +47,7 @@ Some of the functionality are disabled if you are not logged in.
 The server is a simple node server that just writes and reads files from the disk in a restful manner. 
 This keeps the entire project self-contained, but it puts some limitations because the server has no logic whatsoever.
 
-The web-server.js code was borrowed from the [angularjs.org](https://angularjs.org/) tutorial ([angular-phonecat](https://github.com/angular/angular-phonecat))
+The [web-server.js](https://github.com/coderade/angularjs-events/blob/master/scripts/web-server.js) code was borrowed from the [angularjs.org](https://angularjs.org/) tutorial ([angular-phonecat](https://github.com/angular/angular-phonecat))
 
 ***
 
