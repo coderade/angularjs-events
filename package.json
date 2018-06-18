@@ -6,16 +6,19 @@
     "test": "test"
   },
   "dependencies": {
-    "jasmine": "^2.4.1",
-    "jasmine-core": "^2.3.4",
-    "karma": "^0.13.10",
+    "jasmine": "^3.1.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.3",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6",
-    "karma-ng-html2js-preprocessor": "^0.2.0"
+    "karma-ng-html2js-preprocessor": "^0.2.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/coderade/angularjs-events/issues"
   },
-  "homepage": "https://github.com/coderade/angularjs-events#readme"
+  "homepage": "https://github.com/coderade/angularjs-events#readme",
+  "snyk": true
 }
