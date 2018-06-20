@@ -9,3 +9,12 @@ patch:
   'npm:ms:20170412':
     - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
         patched: '2018-06-18T04:27:44.643Z'
+  'npm:hoek:20180212':
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2018-06-20T22:06:40.680Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2018-06-20T22:06:40.680Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2018-06-20T22:06:40.680Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-20T22:06:40.680Z'
