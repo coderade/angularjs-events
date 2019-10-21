@@ -1,11 +1,35 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:debug:20170905':
     - karma > socket.io > socket.io-adapter > socket.io-parser > debug:
         patched: '2018-06-18T04:27:44.643Z'
+    - karma > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > braces > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > anymatch > micromatch > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > log4js > axios > follow-redirects > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2019-10-21T19:43:01.259Z'
   'npm:ms:20170412':
     - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
         patched: '2018-06-18T04:27:44.643Z'
@@ -21,3 +45,22 @@ patch:
   'npm:tunnel-agent:20170305':
     - karma > log4js > loggly > request > tunnel-agent:
         patched: '2018-06-25T22:04:52.255Z'
+  'npm:extend:20180424':
+    - karma > dom-serialize > extend:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > log4js > loggly > request > extend:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > log4js > slack-node > requestretry > extend:
+        patched: '2019-10-21T19:43:01.259Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - karma > log4js > mailgun-js > proxy-agent > https-proxy-agent:
+        patched: '2019-10-21T19:43:01.259Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-21T19:43:01.259Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-21T19:43:01.259Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-21T19:43:01.259Z'
+  'npm:tough-cookie:20170905':
+    - karma > log4js > loggly > request > tough-cookie:
+        patched: '2019-10-21T19:43:01.259Z'
