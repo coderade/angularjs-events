@@ -8,11 +8,11 @@
   "dependencies": {
     "jasmine": "^3.1.0",
     "jasmine-core": "^3.1.0",
-    "karma": "^2.0.3",
+    "karma": "^3.0.0",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6",
     "karma-ng-html2js-preprocessor": "^0.2.0",
-    "snyk": "^1.85.0"
+    "snyk": "^1.236.1"
   },
   "devDependencies": {},
   "scripts": {
