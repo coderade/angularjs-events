@@ -66,6 +66,11 @@ you can see in this [link](http://coderade.io/configure-karma-webstorm).
 I created a article in my blog of how to configure the Protractor for tests in the WebStorm IDE and how to run E2E tests,
  you can see in this [link](http://coderade.io/setting-protractor-webstorm).
 
+
+## Security Policy
+
+For more details of the project Security Policy, please check: [Security Policy](https://github.com/coderade/angularjs-events/security/policy)
+
 ***
 
 For more information on AngularJS please check out [AngularJS](http://angularjs.org).
